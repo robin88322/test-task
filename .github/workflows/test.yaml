@@ -3,7 +3,7 @@ on: [workflow_dispatch]
 
 jobs:
   run_test:
-    runs_on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - uses: action/checkout@v6
       - uses: action/setup-python@v6
